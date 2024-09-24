@@ -1,0 +1,35 @@
+# Node.js dependencies
+node_modules/
+package-lock.json
+npm-debug.log
+yarn-error.log
+.pnpm-debug.log
+.env
+
+# Playwright specific files
+playwright-report/
+test-results/
+playwright/.cache/
+
+# Allure report folders
+allure-results/
+allure-report/
+
+# TypeScript compiled files
+dist/
+build/
+out/
+*.tsbuildinfo
+
+# Logs and debugging files
+logs/
+*.log
+*.tmp
+*.pid
+*.gz
+*.log*
+
+# IDE specific files
+.vscode/
+.idea/
+.DS_Store
